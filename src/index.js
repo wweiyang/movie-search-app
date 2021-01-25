@@ -1,6 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import SearchMovies from "./searchMovies";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import SearchMovies from "./searchMovies"
+import './style.css'
 
 class Main extends React.Component {
   render() {
@@ -13,4 +14,4 @@ class Main extends React.Component {
   }
 }
 
-ReactDOM.render(<Main />, document.getElementById('root'));
+ReactDOM.render(<Main />, document.getElementById('root'))
